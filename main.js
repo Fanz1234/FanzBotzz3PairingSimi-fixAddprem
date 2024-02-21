@@ -231,6 +231,8 @@ getMessage,
 //browser: ['Chrome (Linux)'],
 //browser: ['Chrome (Linux)', '', ''],
 //browser: Browsers.macOS('Desktop'),
+//browser: ["Linux","Safari"],
+//browser: ["IOS","Safari"],
 //Jika ubuntu mengalami gangguan, ganti browser di atas
 browser: ["Ubuntu","Firefox"],
 connectTimeoutMs: 60_000,
