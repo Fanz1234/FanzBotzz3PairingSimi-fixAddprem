@@ -232,7 +232,7 @@ getMessage,
 //browser: ['Chrome (Linux)', '', ''],
 //browser: Browsers.macOS('Desktop'),
 //Jika ubuntu mengalami gangguan, ganti browser di atas
-browser: ["Ubuntu","Firefox","20.0.05"],
+browser: ["Ubuntu","Firefox"],
 connectTimeoutMs: 60_000,
 defaultQueryTimeoutMs: 0,
 keepAliveIntervalMs: 10000,
