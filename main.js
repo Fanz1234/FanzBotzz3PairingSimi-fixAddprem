@@ -1,5 +1,3 @@
-// VERSI PAIRING ( fanz BIKIN ANJG )
-// GAUSAH DELETE NAMA GW, LU CUMAN PAKE DASAR KROCO
 "use strict";
 //process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 require("./settings.js")
