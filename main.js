@@ -172,7 +172,7 @@ global.db.chain = _.chain(global.db.data)
 loadDatabase()
 
   
-const { state, saveCreds } = await useMultiFileAuthState("session")
+const { state, saveCreds } = await useMultiFileAuthState("FanzSession")
 //const store = useStore? makeInMemoryStore({ logger: logg().child({ level: 'fatal', stream: 'store' }) }) : undefined
 const store = makeInMemoryStore({ logger: logg().child({ level: 'fatal', stream: 'store' }) })
 const { version, isLatest } = await fetchLatestBaileysVersion()
@@ -229,10 +229,10 @@ getMessage,
 //browser: ['Chrome (Linux)'],
 //browser: ['Chrome (Linux)', '', ''],
 //browser: Browsers.macOS('Desktop'),
-//browser: ["Linux","Safari"],
+//browser: ["IOS","Safari"],
 //browser: ["Ubuntu","Firefox"],
 //Jika ubuntu mengalami gangguan, ganti browser di atas
-browser: ["IOS","Safari"],
+browser: ["Linux","Safari"],
 connectTimeoutMs: 60_000,
 defaultQueryTimeoutMs: 0,
 keepAliveIntervalMs: 10000,
