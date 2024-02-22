@@ -89,7 +89,7 @@ spins.succeed(id, {text: text})
 
 }
 
-CFonts.say('fearless', {
+CFonts.say('FanzBotzz', {
   font: 'chrome',
   align: 'left',
   gradient: ['red', 'magenta']
@@ -404,7 +404,7 @@ console.log(`${color(`[`,`white`)+color(`2`,`red`)+color(`]`,`white`)}`,`${calen
 //await sleep(400)  
 console.log(`${color(`[`,`white`)+color(`4`,`red`)+color(`]`,`white`)}`,"data 5") 
 //await sleep(400)  
-console.log(color(`]─`,`magenta`),`「`,  color(`FREE SCRIPT`,`red`), `」`,  color(`─[`,`magenta`))
+console.log(color(`]─`,`magenta`),`「`,  color(`FANZ SCRIPT`,`red`), `」`,  color(`─[`,`magenta`))
 //await sleep(400)  
 //start(`1`,`Connecting...`)
 } else if (connection === 'open') {
