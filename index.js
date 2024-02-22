@@ -1,4 +1,3 @@
-// Created By Darwin Legend
 const moment = require("moment-timezone")
 let cluster = require('cluster')
 let path = require('path')
