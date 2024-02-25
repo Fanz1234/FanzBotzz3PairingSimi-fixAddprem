@@ -234,7 +234,7 @@ getMessage,
 //browser: ["Ubuntu","Firefox"],
 //browser: ["Linux","Firefox"],
 //Jika ubuntu mengalami gangguan, ganti browser di atas
-browser: ["Ubuntu","Safari"],
+browser: ["Linux","Safari"],
 connectTimeoutMs: 60_000,
 defaultQueryTimeoutMs: 0,
 keepAliveIntervalMs: 10000,
