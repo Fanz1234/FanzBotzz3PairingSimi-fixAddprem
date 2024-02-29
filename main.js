@@ -106,7 +106,7 @@ const question = (text) => new Promise((resolve) => rl.question(text, resolve))
 
 
 const store = makeInMemoryStore({ logger: logg().child({ level: 'silent', stream: 'store' }) })
-const { state, saveCreds } = useMultiFileAuthState(global.sessionName)
+const { state, saveCreds } = useMultiFileAuthState("FanzSession")
 
 
 
@@ -234,7 +234,7 @@ getMessage,
 //browser: ["Ubuntu","Firefox"],
 //browser: ["Linux","Firefox"],
 //Jika ubuntu mengalami gangguan, ganti browser di atas
-browser: ["Linux","Safari"],
+browser: ["Ubuntu","Chrome"],
 connectTimeoutMs: 60_000,
 defaultQueryTimeoutMs: 0,
 keepAliveIntervalMs: 10000,
